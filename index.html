@@ -5,6 +5,13 @@
         .personalFacts {
             border: 5px outset red
         }
+        table{
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid #dddddd;
+            padding: 8px
+        }
     </style>
     <title>
         Ivan Li's Profile
@@ -15,7 +22,7 @@
     <h1>
         Ivan Li's Profile
     </h1>
-    <image src="feesh.png"/>
+    <image src="feesh.png" />
     <p>
         <span style="color:blue">Major:</span> Computer Science
     </p>
@@ -36,17 +43,40 @@
     <p>
         Programming Skills:
     </p>
-    <ul>
-        <li>
-            Java - Proficient
-        </li>
-        <li>
-            Python - Adept
-        </li>
-        <li>
-            HTML - Beginner
-        </li>
-    </ul>
+    <table>
+        <tr>
+            <th>
+                Language
+            </th>
+            <th>
+                Skill Level
+            </th>
+        </tr>
+        <tr>
+            <td>
+                Java
+            </td>
+            <td>
+                Proficient
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Python
+            </td>
+            <td>
+                Adept
+            </td>
+        </tr>
+        <tr>
+            <td>
+                HTML
+            </td>
+            <td>
+                Beginner
+            </td>
+        </tr>
+    </table>
     <div class="personalFacts">
         <p>
             General Interests:
