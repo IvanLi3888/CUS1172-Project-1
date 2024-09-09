@@ -1,4 +1,5 @@
-<html>
+<!DOCTYPE html>
+<!-- TODO: figure out where to put <form> and external image-->
 
 <head>
     <style>
@@ -22,17 +23,54 @@
 </head>
 
 <body>
-    <h1>
+    <div class="menu">
+        <h2>
+            Index/Menu:
+        </h2>
+        <a href="#profile">
+            Go to Profile
+        </a>
+        <p></p>
+        <a href="#education">
+            Go to Education
+        </a>
+        <p></p>
+        <a href="#work">
+            Go to Work/Projects
+        </a>
+        <p></p>
+        <a href="#skills">
+            Go to Programming Skills
+        </a>
+        <p></p>
+        <a href="#personal">
+            Go to Personal Facts
+        </a>
+        <p></p>
+        <a href="#media">
+            Go to Favorite Song, Movie and TV Show
+        </a>
+        <p></p>
+        <a href="#website">
+            Go to Favorite Website
+        </a>
+    </div>
+
+    <h1 id="profile">
         Ivan Li's Profile
     </h1>
     <image src="feesh.png" />
     <p>
         <span style="color:blue">Major:</span> Computer Science
     </p>
-    <p>
-        Education: St John's University
+    <p id="education"> <!-- Insert paragraph of past education like high school -->
+        Education:
+
+        I went to Staten Island Technical High School and got my high school diploma there. I am currently enrolled at
+        St Johns University and will soon be
+        getting a Bachelor's Degree in Computer Science.
     </p>
-    <p>
+    <p id="work">
         List of Work Experience / Projects:
     </p>
     <ul>
@@ -43,7 +81,7 @@
             Project: Expense Tracker Application
         </li>
     </ul>
-    <p>
+    <p id="skills">
         Programming Skills:
     </p>
     <table>
@@ -81,22 +119,58 @@
         </tr>
     </table>
     <div class="personalFacts">
+        <h1 id="personal">
+            Personal Facts About Me
+        </h1>
         <p>
-            General Interests:
+            General Interests: <!-- Insert general description of hobbies and interests-->
+            My hobbies are playing
         </p>
+        <p id="media">
+            Favorite Movie:
+        </p>
+        <!-- Insert iframe with random movie clip -->
         <p>
-            Favorite Song, Music and TV Show:
+            Favorite TV Show:
         </p>
-        <p>
-            Music:
-        </p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/-CuyLbC2TZo?si=q0N-3J3JOFbZJLrX"
+        <!-- Insert iframe with random youtube clip like B99 surely-->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/jnIeJkZcnes"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p> <!-- Add hyperlink to website-->
-            Favorite Website
+        <p>
+            Favorite Song:
         </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/-CuyLbC2TZo"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p id="website"> <!-- Add hyperlink to website-->
+            Favorite Website:
+            <a href="https://neal.fun/password-game/" target="_blank">
+                The Password Game by Neal
+            </a>
+        </p>
+        <p>
+            [Description] This link leads to a website where you get to construct a password based on constraints that
+            increasingly
+            get more complex and difficult to satisfy
+        </p>
+    </div>
+    <div class="project">
+        <h1 id="projects">
+            My Projects
+        </h1>
+        <ol>
+            <li>
+                <a href="https://ivanli3888.github.io/CUS1172-Project-1/" target="_blank">
+                    Profile Page
+                </a>
+                <p>
+                    [Description]
+                </p>
+            </li>
+        </ol>
     </div>
 </body>
 
