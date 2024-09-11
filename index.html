@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- TODO: figure out where to put <form> and external image-->
+<html lang="en-us">
 
 <head>
     <style>
@@ -17,139 +17,120 @@
             padding: 8px
         }
     </style>
-    <title>
-        Ivan Li's Profile
-    </title>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ivan Li's Profile</title>
 </head>
 
 <body>
     <div class="menu">
-        <h2>
-            Index/Menu:
-        </h2>
-        <a href="#profile">
-            Go to Profile
-        </a>
-        <p></p>
-        <a href="#education">
-            Go to Education
-        </a>
-        <p></p>
-        <a href="#work">
-            Go to Work/Projects
-        </a>
-        <p></p>
-        <a href="#skills">
-            Go to Programming Skills
-        </a>
-        <p></p>
-        <a href="#personal">
-            Go to Personal Facts
-        </a>
-        <p></p>
-        <a href="#media">
-            Go to Favorite Song, Movie and TV Show
-        </a>
-        <p></p>
-        <a href="#website">
-            Go to Favorite Website
-        </a>
+        <h2>Index/Menu:</h2>
+        <a href="#profile">Go to Profile</a>
+
+        <br><br>
+        <a href="#education">Go to Education</a>
+
+        <br><br>
+        <a href="#work">Go to Work/Projects</a>
+
+        <br><br>
+        <a href="#skills">Go to Programming Skills</a>
+
+        <br><br>
+        <a href="#personal">Go to Personal Facts</a>
+
+        <br></br>
+        <a href="#media">Go to Favorite Song, Movie and TV Show</a>
+
+        <br><br>
+        <a href="#website">Go to Favorite Website</a>
     </div>
 
-    <h1 id="profile">
-        Ivan Li's Profile
-    </h1>
-    <image src="feesh.png" />
-    <p>
-        <span style="color:blue">Major:</span> Computer Science
-    </p>
-    <p id="education"> <!-- Insert paragraph of past education like high school -->
-        Education:
+    <h1 id="profile">Ivan Li's Profile</h1>
 
+    <image src="feesh.png" alt="Profile Picture" width="128px" height="128px" />
+
+    <p><span style="color:blue">Major:</span> Computer Science</p>
+
+    <h2 id="education"> Education:</h2>
+    <p>
+        <image
+            src="https://images.unsplash.com/photo-1700930118098-6b5f89104953?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt="School Building" width="512px" height="380px"></image>
+        <br>
+        <i>Photo by Fons Heijnsbroek on Unsplash</i>
+        <br><br>
         I went to Staten Island Technical High School and got my high school diploma there. I am currently enrolled at
         St Johns University and will soon be
         getting a Bachelor's Degree in Computer Science.
-    </p>
-    <p id="work">
-        List of Work Experience / Projects:
-    </p>
+        <br><br>
+        List of Diplomas/Degrees:
     <ul>
-        <li>
-            Job Title: Front Desk Worker
-        </li>
-        <li>
-            Project: Expense Tracker Application
-        </li>
+        <li>High School Diploma</li>
     </ul>
-    <p id="skills">
-        Programming Skills:
     </p>
+
+    <h2 id="work">List of Work Experience / Projects:</h2>
+
+    <ul>
+        <li>Job Title: Front Desk Worker</li>
+        <li>Project: Expense Tracker Application</li>
+    </ul>
+
+    <h2 id="skills">Programming Skills:</h2>
+    <p>
+        I have worked with Java for a few years as of 2024, feel confident in my abilities to implement various things
+        using Java. I have worked with Python in the past, but not as of recently. Currently I am learning HTML and
+        seeing what new things I can do with it.
+    </p>
+
+
     <table>
         <tr>
-            <th>
-                Language
-            </th>
-            <th>
-                Skill Level
-            </th>
+            <th>Language</th>
+            <th>Skill Level</th>
         </tr>
         <tr>
-            <td>
-                Java
-            </td>
-            <td>
-                Proficient
-            </td>
+            <td>Java</td>
+            <td>Proficient</td>
         </tr>
         <tr>
-            <td>
-                Python
-            </td>
-            <td>
-                Adept
-            </td>
+            <td>Python</td>
+            <td>Adept</td>
         </tr>
         <tr>
-            <td>
-                HTML
-            </td>
-            <td>
-                Beginner
-            </td>
+            <td>HTML</td>
+            <td>Beginner</td>
         </tr>
     </table>
+    <br>
+
     <div class="personalFacts">
-        <h1 id="personal">
-            Personal Facts About Me
-        </h1>
+        <h1 id="personal">Personal Facts About Me</h1>
         <p>
             General Interests: <!-- Insert general description of hobbies and interests-->
-            My hobbies are playing
+            My hobbies involve playing various games, both digitally and physically. Such games include Minecraft,
+            Genshin Impact, and Magic: the Gathering.
+            I also like to cook and read webcomics.
         </p>
-        <p id="media">
-            Favorite Movie:
-        </p>
-        <!-- Insert iframe with random movie clip -->
-        <p>
-            Favorite TV Show: Brooklyn 99
-        </p>
-        <!-- Insert iframe with random youtube clip like B99 surely-->
+        <h2 id="media">Favorite Movie: IF</h2>
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/TgZVawy-C2o"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- Insert iframe with random movie clip , test by refreshing with ctrl shift r-->
+        <h2>Favorite TV Show: Brooklyn 99</h2>
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/jnIeJkZcnes"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p>
-            Favorite Song: Pirate Shantys
-        </p>
 
+        <h2> Favorite Song: Pirate Shantys</h2>
         <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/-CuyLbC2TZo"
             title="YouTube video player" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <p id="website"> <!-- Add hyperlink to website-->
-            Favorite Websites:
 
-        </p>
+        <h2 id="website"> Favorite Websites:</h2>
         <ul>
             <li>
                 <a href="https://neal.fun/password-game/" target="_blank">
@@ -163,36 +144,51 @@
                 </p>
             </li>
             <li>
-                <a href="https://www.google.com" target="_blank"></a>
-                Website Hyperlink
+                <a href="https://tendsty.github.io/gooboo/" target="_blank">
+                    Gooboo by Tendsty
                 </a>
                 <p>
-                    [Description]
+                    [Description] This link leads to a github page where you play a game by buying and unlocking
+                    upgrades in order to
+                    access new content and features. Progression in this game is slow and not meant to be cleared in one
+                    session.
                 </p>
             </li>
             <li>
-            <a href="https://www.google.com" target="_blank"></a>
-            Website Hyperlink
-            </a>
-            <p>
-                [Description]
-            </p>
+                <a href="https://citethis.net/" target="_blank">
+                    CiteThis
+                </a>
+                <p>
+                    [Description] This link leads to a website where you can easily cite various sources. It offers many
+                    different citation styles and an easy-to-use interface.
+                </p>
             </li>
         </ul>
+        <div class="questionnaire">
+            <p>What was your favorite website out of those three?</p>
+            <form>
+                <input type="radio" id="website1" name="favorite-site" value="password-game">
+                <label> The Password Game</label><br>
+                <!-- replace with other sites -->
+                <input type="radio" id="website2" name="favorite-site" value="gooboo-game">
+                <label> Gooboo</label><br>
 
-
+                <input type="radio" id="website3" name="favorite-site" value="citethis">
+                <label> CiteThis</label>
+            </form>
+        </div>
     </div>
+
     <div class="project">
-        <h1 id="projects">
-            My Projects
-        </h1>
+        <h1 id="projects">My Projects</h1>
         <ol>
             <li>
                 <a href="https://ivanli3888.github.io/CUS1172-Project-1/" target="_blank">
                     Profile Page
                 </a>
                 <p>
-                    [Description]
+                    [Description] This link leads to a profile page that I crated using HTML. It contains general info
+                    about me and my interests, as well as a portfolio for various web development projects.
                 </p>
             </li>
         </ol>
