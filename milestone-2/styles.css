@@ -1,60 +1,65 @@
-#personalFacts {
-    border: 5px outset #1F5673;
-    padding:10px
+@media (min-width:640px) {
+    #personalFacts {
+        border: 5px outset #1F5673;
+        padding:10px
+    }
+    
+    body{
+        background-color: #B9B8D3;
+        padding: 10px;
+        border: 5px outset black;
+    }
+    table {
+        border-collapse: collapse;
+    }
+    
+    td,
+    th {
+        border: 1px solid #dddddd;
+        padding: 8px
+    }
+    
+    h2{
+        margin-top: 0px;
+    }
+    
+    #personal{
+        text-align: center;
+        margin-top: -5px;
+    }
+    
+    #professional{
+        padding:10px
+    }
+    
+    #menu {
+        float:right;
+        padding:10px
+    }
+    
+    #education{
+        margin-left: 520px;
+    }
+    
+    #major{
+        margin-left: 520px;
+    }
+    
+    .box{
+        border: 5px outset #463730;
+        margin: 1px
+    }
+    
+    .language{
+        color:rgb(163, 109, 38);
+    }
+    
+    .text-center{
+        text-align: center;
+    }
+    
 }
 
-body{
-    background-color: #B9B8D3;
-    padding: 10px;
-    border: 5px outset black;
-}
-table {
-    border-collapse: collapse;
-}
 
-td,
-th {
-    border: 1px solid #dddddd;
-    padding: 8px
-}
-
-h2{
-    margin-top: 0px;
-}
-
-#personal{
-    text-align: center;
-    margin-top: -5px;
-}
-
-#professional{
-    padding:10px
-}
-
-#menu {
-    float:right;
-    padding:10px
-}
-
-#education{
-    margin-left: 520px;
-}
-
-#major{
-    margin-left: 520px;
-}
-
-.box{
-    border: 5px outset #463730;
-    margin: 1px
-}
-
-.language{
-    color:rgb(163, 109, 38);
-}
-
-.text-center{
-    text-align: center;
-}
 
 
