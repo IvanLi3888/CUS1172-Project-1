@@ -1,0 +1,217 @@
+#personalFacts {
+    border: 5px outset #1F5673;
+    padding: 10px
+}
+
+body {
+    background-color: #B9B8D3;
+    padding: 10px;
+    border: 5px outset black;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+a {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+#personal {
+    text-align: center;
+    margin-top: -5px;
+}
+
+#professional {
+    padding: 10px
+}
+
+#projects {
+    width: 170px;
+}
+
+#diploma {
+    margin-top: 5px;
+}
+
+#website {
+    width: 200px;
+}
+
+#general {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    max-width: 500px;
+}
+
+#major {
+    text-indent: 0px;
+}
+
+.remove-float {
+    clear: both;
+}
+
+
+.box {
+    border: 5px outset #463730;
+    margin: 1px
+}
+
+
+.section {
+    border: 5px outset black;
+
+}
+
+.language {
+    color: rgb(163, 109, 38);
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+@media (max-width:1060px) {
+
+    table {
+        margin-left: 50px;
+        border-collapse: collapse;
+    }
+
+
+    #menu {
+        float: right;
+        padding: 5px
+    }
+
+    #profile {
+        width: 135px;
+    }
+
+    #education {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        width: 130px;
+    }
+
+    #skills {
+        width: 160px;
+        float: left;
+        margin-right: 20px
+    }
+
+    #skillspg {
+        width: 210px;
+    }
+
+    #edupg {
+        width: 300px
+    }
+
+    #major {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+
+    #schoolpic {
+        border: 5px outset rgb(68, 68, 113);
+        margin-top: 5px;
+        margin-right: 10px;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:1060px) {
+
+
+    table {
+        border-collapse: collapse;
+    }
+
+    #menu {
+        float: right;
+        padding: 10px
+    }
+
+    #profile {
+        width: 230px;
+    }
+
+    #education {
+        margin-left: 530px;
+        height: 30px;
+        width: 130px;
+    }
+
+    #skills {
+        width: 300px;
+        float: left;
+        margin-right: 20px
+    }
+
+    #skillspg {
+        width: 210px;
+    }
+
+    #edupg {
+        float: left;
+        width: 320px
+    }
+
+
+    #major {
+        margin-left: 520px;
+    }
+
+    #schoolpic {
+        border: 5px outset rgb(68, 68, 113);
+        float: left;
+        margin-right: 10px;
+    }
+
+
+}
+
+@media (min-width:1265px) {
+
+    table {
+        margin-left: 10px;
+        border-collapse: collapse;
+    }
+
+    #skills {
+        width: 240px;
+        float: left;
+        margin-left: 10px;
+        margin-right: 20px
+    }
+
+}
+
+@media print {
+    .no-print {
+        display: none;
+    }
+}
