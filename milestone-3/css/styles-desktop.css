@@ -1,0 +1,173 @@
+#personalFacts {
+    border: 5px outset #1F5673;
+    padding: 10px
+}
+
+body {
+    background-color: #B9B8D3;
+    padding: 10px;
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    padding: 8px
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+a {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+ul {
+    list-style-type: square;
+}
+
+ol {
+    background: #a3a2b4;
+}
+
+
+#personal {
+    text-align: center;
+    margin-top: -5px;
+}
+
+#professional {
+    padding: 10px
+}
+
+#projects {
+    width: fit-content;
+}
+
+#diploma {
+    margin-top: 5px;
+}
+
+#website {
+    width: fit-content;
+}
+
+#general {
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    max-width: 500px;
+}
+
+
+
+.remove-float {
+    clear: both;
+}
+
+
+.box {
+    border: 5px outset #463730;
+    margin: 1px
+}
+
+
+.section {
+    border: 5px outset black;
+
+}
+
+.language {
+    color: rgb(163, 109, 38);
+}
+
+
+.no-indent {
+    text-indent: 0px;
+}
+
+
+form {
+    box-sizing: border-box;
+    border: 5px outset black;
+}
+
+label:nth-child(odd) {
+    background-color: #8a899f;
+}
+
+label:nth-child(even) {
+    background-color: #a3a2b4;
+}
+
+
+
+@media (min-width:1265px) {
+
+    table {
+        margin-left: 10px;
+        border-collapse: collapse;
+    }
+
+    #skills {
+        width: 240px;
+        float: left;
+        margin-left: 10px;
+        margin-right: 20px
+    }
+
+    #schoolpic {
+        float: right;
+        border: 5px outset rgb(68, 68, 113);
+        margin-top: -185px;
+        margin-right: 10px;
+        width: 650px;
+        height: auto;
+    }
+
+    #menu {
+        background-color:#6d8591;
+    }
+
+    #profile {
+        width: fit-content;
+
+    }
+
+    #education {
+        margin-top: 5px;
+        margin-bottom: 0px;
+        width: fit-content;
+    }
+
+    #work {
+        width: 250px
+    }
+
+    #edupg {
+        width: 300px
+    }
+
+    #past-credit {
+        float: left
+    }
+
+    #credit{
+        float: right;
+        margin-top: 5px;
+        margin-left: 300px;
+    }
+
+
+}
+
+@media print {
+    .no-print {
+        display: none;
+    }
+}

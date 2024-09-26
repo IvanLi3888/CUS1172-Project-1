@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <script>
+        let current_status = 1;
+        function hello() {
+            if (current_status == 1) {
+                document.querySelector("#status").innerHTML = "Goodbyers!!";
+                current_status = 1 - current_status;
+            } else {
+                document.querySelector("#status").innerHTML = "Helloers!!";
+                current_status = 1 - current_status;
+            }
+        }
+        function change(){
+            document.querySelector("#status").innerHTML = document.querySelector("#user").value;
+            
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <h1 id="status"> Welcome!!</h1>
+    <input id="user" type="text" placeholder="Type something" oninput="change()" >
+    <button onclick="hello()"> Click here!</button>
+</body>
+
+
+</html>
